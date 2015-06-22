@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="CHC Archi Model" id="f878a354" version="3.1.1">
+  <folder name="Business" id="5e390b74" type="business">
+    <element xsi:type="archimate:BusinessFunction" id="47085ca1" name="E-Branch Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="4aa169fb" name="Branch Currency Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="93fd8fbd" name="Branch Location Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="39ddd0ac" name="Customer Access Entitlement"/>
+    <element xsi:type="archimate:BusinessFunction" id="07b27b69" name="Lead/Opportunity Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="8d9cdcc3" name="Prospect Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="110fc88b" name="Customer Agreement"/>
+    <element xsi:type="archimate:BusinessFunction" id="c7e1ec53" name="Customer Credit Rating"/>
+    <element xsi:type="archimate:BusinessFunction" id="d20a7b8c" name="Party Authentication"/>
+    <element xsi:type="archimate:BusinessFunction" id="ff46f772" name="Customer Relationship Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="405b45fb" name="Customer Behavioural Insights"/>
+    <element xsi:type="archimate:BusinessFunction" id="6fd9f900" name="Party Data Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="c4206a51" name="Customer Profile"/>
+    <element xsi:type="archimate:BusinessFunction" id="265b5ae3" name="Business Development"/>
+    <element xsi:type="archimate:BusinessFunction" id="5b15090e" name="Brand Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="4414cba3" name="Customer Surveys"/>
+    <element xsi:type="archimate:BusinessFunction" id="45f98e70" name="Customer Campaign Management"/>
+  </folder>
+  <folder name="Application" id="f16e8bf6" type="application"/>
+  <folder name="Technology" id="95959822" type="technology"/>
+  <folder name="Motivation" id="f3df571f" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="28eae9f5" type="implementation_migration"/>
+  <folder name="Connectors" id="981fd0a7" type="connectors"/>
+  <folder name="Relations" id="40486d9a" type="relations"/>
+  <folder name="Views" id="84c9248b" type="diagrams">
+    <folder name="Business Capability Maps" id="e31efca2">
+      <element xsi:type="archimate:ArchimateDiagramModel" id="572e1730" name="Reference Data BCM">
+        <child xsi:type="archimate:Group" id="975cb9de" name="Reference Data">
+          <bounds x="36" y="36" width="853" height="625"/>
+          <child xsi:type="archimate:Group" id="4be62396" name="External Agency">
+            <bounds x="36" y="36" width="301" height="169"/>
+            <child xsi:type="archimate:DiagramObject" id="bad731b1" textAlignment="2" archimateElement="47085ca1">
+              <bounds x="26" y="39" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="54b18615" textAlignment="2" archimateElement="4aa169fb">
+              <bounds x="156" y="39" width="133" height="58"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="10b812e3" textAlignment="2" archimateElement="93fd8fbd">
+              <bounds x="26" y="108" width="120" height="55"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Group" id="c2832199" name="Market Data">
+            <bounds x="396" y="36" width="301" height="109"/>
+            <child xsi:type="archimate:DiagramObject" id="439ac2ab" textAlignment="2" archimateElement="39ddd0ac">
+              <bounds x="12" y="36" width="120" height="55"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Group" id="9279c13d" name="Product Management">
+            <bounds x="396" y="240" width="301" height="109"/>
+          </child>
+          <child xsi:type="archimate:Group" id="54620ee0" name="Party">
+            <bounds x="36" y="240" width="301" height="109"/>
+            <child xsi:type="archimate:DiagramObject" id="75f480e0" textAlignment="2" archimateElement="6fd9f900">
+              <bounds x="12" y="36" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="c9bd14af" textAlignment="2" archimateElement="c4206a51">
+              <bounds x="156" y="36" width="120" height="55"/>
+            </child>
+          </child>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" id="a77f8fe4" name="Sales and Service BCM">
+        <child xsi:type="archimate:Group" id="32302b0e" name="Sales and Service">
+          <bounds x="468" y="24" width="853" height="625"/>
+          <child xsi:type="archimate:Group" id="41fda2cf" name="Channel Specific">
+            <bounds x="36" y="36" width="301" height="169"/>
+            <child xsi:type="archimate:DiagramObject" id="c5c7315c" textAlignment="2" archimateElement="47085ca1">
+              <bounds x="26" y="39" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="d36c250d" textAlignment="2" archimateElement="4aa169fb">
+              <bounds x="156" y="39" width="133" height="58"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="9b36cab2" textAlignment="2" archimateElement="93fd8fbd">
+              <bounds x="26" y="108" width="120" height="55"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Group" id="6ade3db5" name="Cross Channel">
+            <bounds x="396" y="36" width="301" height="109"/>
+            <child xsi:type="archimate:DiagramObject" id="a50a62b8" textAlignment="2" archimateElement="39ddd0ac">
+              <bounds x="12" y="36" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="a2e1510e" textAlignment="2" archimateElement="d20a7b8c">
+              <bounds x="156" y="36" width="133" height="55"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Group" id="66298f15" name="Sales">
+            <bounds x="36" y="252" width="301" height="109"/>
+            <child xsi:type="archimate:DiagramObject" id="1ab98e87" textAlignment="2" archimateElement="07b27b69">
+              <bounds x="24" y="36" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="3dec4d5b" textAlignment="2" archimateElement="8d9cdcc3">
+              <bounds x="168" y="36" width="120" height="55"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Group" id="571a3271" name="Servicing">
+            <bounds x="384" y="432" width="301" height="109"/>
+          </child>
+          <child xsi:type="archimate:Group" id="000bf704" name="Customer Management">
+            <bounds x="36" y="432" width="301" height="157"/>
+            <child xsi:type="archimate:DiagramObject" id="46c01c82" textAlignment="2" archimateElement="110fc88b">
+              <bounds x="24" y="36" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="53fbb4fa" textAlignment="2" archimateElement="c7e1ec53">
+              <bounds x="168" y="36" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="3697619a" textAlignment="2" archimateElement="ff46f772">
+              <bounds x="24" y="96" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="9e7906f7" textAlignment="2" archimateElement="405b45fb">
+              <bounds x="168" y="96" width="120" height="55"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:Group" id="77a2ee8f" name="Marketing">
+            <bounds x="396" y="204" width="301" height="181"/>
+            <child xsi:type="archimate:DiagramObject" id="58f923ab" textAlignment="2" archimateElement="265b5ae3">
+              <bounds x="12" y="36" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="58979b00" textAlignment="2" archimateElement="5b15090e">
+              <bounds x="156" y="36" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="ede36bf2" textAlignment="2" archimateElement="4414cba3">
+              <bounds x="12" y="108" width="120" height="55"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="2fc81f2f" textAlignment="2" archimateElement="45f98e70">
+              <bounds x="156" y="108" width="120" height="55"/>
+            </child>
+          </child>
+        </child>
+      </element>
+    </folder>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="47375c90" name="Default View"/>
+  </folder>
+</archimate:model>
