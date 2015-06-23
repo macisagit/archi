@@ -48,9 +48,6 @@
             <child xsi:type="archimate:DiagramObject" id="439ac2ab" textAlignment="2" archimateElement="39ddd0ac">
               <bounds x="12" y="36" width="145" height="73"/>
             </child>
-            <child xsi:type="archimate:DiagramObject" id="a1c6492c" textAlignment="2" archimateElement="680d799e">
-              <bounds x="168" y="36" width="145" height="73"/>
-            </child>
           </child>
           <child xsi:type="archimate:Group" id="9279c13d" name="Product Management">
             <bounds x="396" y="240" width="301" height="109"/>
