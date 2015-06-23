@@ -18,6 +18,7 @@
     <element xsi:type="archimate:BusinessFunction" id="5b15090e" name="Brand Management"/>
     <element xsi:type="archimate:BusinessFunction" id="4414cba3" name="Customer Surveys"/>
     <element xsi:type="archimate:BusinessFunction" id="45f98e70" name="Customer Campaign Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="680d799e" name="Zia's Capability Test"/>
   </folder>
   <folder name="Application" id="f16e8bf6" type="application"/>
   <folder name="Technology" id="95959822" type="technology"/>
@@ -46,6 +47,9 @@
             <bounds x="396" y="36" width="301" height="133"/>
             <child xsi:type="archimate:DiagramObject" id="439ac2ab" textAlignment="2" archimateElement="39ddd0ac">
               <bounds x="12" y="36" width="145" height="73"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="a1c6492c" textAlignment="2" archimateElement="680d799e">
+              <bounds x="168" y="36" width="145" height="73"/>
             </child>
           </child>
           <child xsi:type="archimate:Group" id="9279c13d" name="Product Management">
