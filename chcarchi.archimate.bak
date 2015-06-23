@@ -4,7 +4,7 @@
     <element xsi:type="archimate:BusinessFunction" id="47085ca1" name="E-Branch Management"/>
     <element xsi:type="archimate:BusinessFunction" id="4aa169fb" name="Branch Currency Management"/>
     <element xsi:type="archimate:BusinessFunction" id="93fd8fbd" name="Branch Location Management"/>
-    <element xsi:type="archimate:BusinessFunction" id="39ddd0ac" name="Financial Instrument Reference Data Management"/>
+    <element xsi:type="archimate:BusinessFunction" id="39ddd0ac" name="Customer Access Entitlement"/>
     <element xsi:type="archimate:BusinessFunction" id="07b27b69" name="Lead/Opportunity Management"/>
     <element xsi:type="archimate:BusinessFunction" id="8d9cdcc3" name="Prospect Management"/>
     <element xsi:type="archimate:BusinessFunction" id="110fc88b" name="Customer Agreement"/>
@@ -43,9 +43,9 @@
             </child>
           </child>
           <child xsi:type="archimate:Group" id="c2832199" name="Market Data">
-            <bounds x="396" y="36" width="301" height="133"/>
+            <bounds x="396" y="36" width="301" height="109"/>
             <child xsi:type="archimate:DiagramObject" id="439ac2ab" textAlignment="2" archimateElement="39ddd0ac">
-              <bounds x="12" y="36" width="145" height="73"/>
+              <bounds x="12" y="36" width="120" height="55"/>
             </child>
           </child>
           <child xsi:type="archimate:Group" id="9279c13d" name="Product Management">
