@@ -84,24 +84,24 @@
         <child xsi:type="archimate:Group" id="975cb9de" name="Reference Data">
           <bounds x="36" y="36" width="731" height="539"/>
           <child xsi:type="archimate:Group" id="4be62396" name="External Agency">
-            <bounds x="36" y="36" width="313" height="253"/>
+            <bounds x="36" y="36" width="301" height="253"/>
             <child xsi:type="archimate:DiagramObject" id="bad731b1" textAlignment="2" archimateElement="47085ca1">
               <bounds x="24" y="120" width="120" height="55"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="54b18615" textAlignment="2" archimateElement="4aa169fb">
-              <bounds x="154" y="120" width="147" height="58"/>
+              <bounds x="154" y="120" width="133" height="58"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="10b812e3" textAlignment="2" archimateElement="93fd8fbd">
               <bounds x="24" y="189" width="120" height="55"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="8c9040ed" textAlignment="2" archimateElement="1196a8d9">
-              <bounds x="154" y="189" width="147" height="55"/>
+              <bounds x="154" y="189" width="120" height="55"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="84ccf252" textAlignment="2" archimateElement="579913e0">
               <bounds x="24" y="36" width="120" height="73"/>
             </child>
             <child xsi:type="archimate:DiagramObject" id="cfacb474" textAlignment="2" archimateElement="686ab391">
-              <bounds x="161" y="36" width="140" height="73"/>
+              <bounds x="161" y="36" width="120" height="73"/>
             </child>
           </child>
           <child xsi:type="archimate:Group" id="c2832199" name="Market Data">
@@ -132,10 +132,10 @@
             </child>
           </child>
           <child xsi:type="archimate:Group" id="9279c13d" name="Product Management">
-            <bounds x="36" y="420" width="313" height="109"/>
+            <bounds x="36" y="420" width="301" height="109"/>
           </child>
           <child xsi:type="archimate:Group" id="54620ee0" name="Party">
-            <bounds x="36" y="300" width="313" height="109"/>
+            <bounds x="36" y="300" width="301" height="109"/>
             <child xsi:type="archimate:DiagramObject" id="75f480e0" textAlignment="2" archimateElement="6fd9f900">
               <bounds x="12" y="36" width="120" height="55"/>
             </child>
