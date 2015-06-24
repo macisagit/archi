@@ -147,7 +147,7 @@
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" id="a77f8fe4" name="Sales and Service BCM">
         <child xsi:type="archimate:Group" id="32302b0e" name="Sales and Service">
-          <bounds x="48" y="24" width="853" height="625"/>
+          <bounds x="48" y="24" width="853" height="793"/>
           <child xsi:type="archimate:Group" id="41fda2cf" name="Channel Specific">
             <bounds x="36" y="36" width="301" height="169"/>
             <child xsi:type="archimate:DiagramObject" id="c5c7315c" textAlignment="2" archimateElement="47085ca1">
@@ -237,6 +237,9 @@
             <child xsi:type="archimate:DiagramObject" id="2fc81f2f" textAlignment="2" archimateElement="45f98e70">
               <bounds x="156" y="108" width="120" height="55"/>
             </child>
+          </child>
+          <child xsi:type="archimate:Group" id="d86afd6b" name="ZS test group">
+            <bounds x="504" y="624" width="301" height="140"/>
           </child>
         </child>
       </element>
